@@ -82,7 +82,7 @@ incrementAge(user) =>
 ### `fixCar`
 
 * Accepts a car object
-* Sets the `needsMaitenance` field to `false`
+* Sets the `needsMaintenance` field to `false`
 * Returns the car object
 
 ```
@@ -92,7 +92,7 @@ const car = {
     make: 'Ford',
     model: 'Mustang',
     year: 1969,
-    needsMaitenance: true
+    needsMaintenance: true
 };
 
 fixCar(car) =>
@@ -100,7 +100,7 @@ fixCar(car) =>
     make: 'Ford',
     model: 'Mustang',
     year: 1969,
-    needsMaitenance: false
+    needsMaintenance: false
 }
 ```
 
